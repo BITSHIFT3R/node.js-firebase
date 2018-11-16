@@ -8,7 +8,7 @@ var firebase = require('firebase');
 var config = {
     apiKey: "<your API KEY>",
     authDomain: "<Your domain>",
-    databaseURL: "<database url>,
+    databaseURL: "<database url>",
     projectId: "<projecId>",
     storageBucket: "<bucket address>",
     messagingSenderId: "<messanger Id>"
