@@ -6,12 +6,12 @@ const mongoose = require('mongoose');
 const app = express();
 var firebase = require('firebase');
 var config = {
-    apiKey: "AIzaSyBC3iBIYsIJoRAqtRQtDwBjoPm3MNReJOA",
-    authDomain: "webfcm-e8cbb.firebaseapp.com",
-    databaseURL: "https://webfcm-e8cbb.firebaseio.com",
-    projectId: "webfcm-e8cbb",
-    storageBucket: "webfcm-e8cbb.appspot.com",
-    messagingSenderId: "721266676018"
+    apiKey: "<your API KEY>",
+    authDomain: "<Your domain>",
+    databaseURL: "<database url>,
+    projectId: "<projecId>",
+    storageBucket: "<bucket address>",
+    messagingSenderId: "<messanger Id>"
   };
   firebase.initializeApp(config);
 
